@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    <title>Mon bloc</title>
+</head>
+<body class="container mt-5">
+    <header class="row bg-body-tertiary pt-2">
+        <div class="logo col text-secondary font-size-20 text-uppercase fw-bold">MOn Bloc</div>
+        <nav class="col">
+            <ul class="nav justify-content-end nav-tabs">
+                <li class="nav-item" style="--i:1;"><a class="nav-link" href="" >A propos</a></li>
+                <li class="nav-item" style="--i:2;"><a class="nav-link" href="" >Competences</a></li>
+                <li class="nav-item" style="--i:3;"><a class="nav-link" href="" >Autres</a></li>
+                <li class="nav-item" style="--i:4;"><a class="nav-link" href="" >Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class=" justify-content-center">
+       <section class="container">
+            <div class="compte row" >
+                <div id="description" class="col-7">
+                    <h3 class="text-body-tertiary">Salut!<br> <span>Bienvenu sur mon blog</span></h3>
+                    <h1 class="h1">Emmanuel Badibanga</h1>
+                    <div class="desc text-secondary fs-5">Un pasionné des nouvelles technologies, entre autre: <span class="element text-danger fw-bold"></span></div>
+                    <div class="contenu text-danger-emphasis fs-20">Lorem ipsum dolor sit amet.</div>
+                </div>
+                <div id="MyPicture" class="col">
+                    <img class="image-fluid rounded-circle" width="450px" src="/images/Pmoi2.JPG" alt="" srcset="">
+                </div>
+            </div>
+        
+        <div class="logoliens col-2 justify-content-center align-center">
+            <ul class="nav justify-content-around">
+                <li class="nav-item border border-3 border-black-subtle rounded-circle p-2 fw-20 style="--i:5"><a href=""><box-icon type='logo' name='facebook'></box-icon></a></li>
+                <li class="nav-item border border-3 border-black-subtle rounded-circle p-2 fw-20 style="--i:6"><a href=""><box-icon name='whatsapp' type='logo' ></box-icon></a></li>
+                <li class="nav-item border border-3 border-black-subtle rounded-circle p-2 fw-20 style="--i:7"><a href=""><box-icon name='linkedin' type='logo' ></box-icon></a></li>
+            </ul>
+            <button type="submit" class="btn btn-outline-danger fs-20 fw-bold rounded">Commencer</button>
+        </div>
+       
+       </section>
+       
+        
+        
+    </main>
+    <footer></footer>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <script src="https://unpkg.com/typed.js@2.0.132/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('.element', {
+            strings: ["Python", "Java Script", "Bootstrap",],
+            typeSpeed: 30,
+            backSpeed:30,
+            loop:true
+          });
+    </script>
+    
+      
+
+</body>
+</html>
